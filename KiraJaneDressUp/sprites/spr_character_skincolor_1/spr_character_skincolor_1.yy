@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character/spr_character.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character/spr_character.yy",},"LayerId":{"name":"761df885-d839-45b3-9981-3035e24f1aa5","path":"sprites/spr_character/spr_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},"resourceVersion":"1.0","name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},"LayerId":{"name":"761df885-d839-45b3-9981-3035e24f1aa5","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_character_skincolor_1","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},"resourceVersion":"1.0","name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},
+    "spriteId": {"name":"spr_character_skincolor_1","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"087ec20e-a063-4cdf-90e1-cc690b6f8d2c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character/spr_character.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"faaeac7d-cc19-4aac-84c0-8c600a0100b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"197079f1-0cf7-43b8-8475-9f801ad8fc3d","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 100,
+    "yorigin": 312,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},
+    "parent": {"name":"spr_character_skincolor_1","path":"sprites/spr_character_skincolor_1/spr_character_skincolor_1.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_character",
+    "name": "spr_character_skincolor_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_character",
+  "name": "spr_character_skincolor_1",
   "tags": [],
   "resourceType": "GMSprite",
 }

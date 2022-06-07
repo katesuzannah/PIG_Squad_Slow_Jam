@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_character_skincolor_3",
-    "path": "sprites/spr_character_skincolor_3/spr_character_skincolor_3.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -30,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_character",
+  "name": "obj_button_manager",
   "tags": [],
   "resourceType": "GMObject",
 }
