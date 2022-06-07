@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Skin Colors",
+    "path": "folders/Sprites/Buttons/Skin Colors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skincolor_4",

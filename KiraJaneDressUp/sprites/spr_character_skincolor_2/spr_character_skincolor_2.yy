@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Character",
+    "path": "folders/Sprites/Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_character_skincolor_2",
