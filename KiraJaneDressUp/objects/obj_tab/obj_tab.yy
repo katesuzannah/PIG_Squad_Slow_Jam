@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "tab",
+    "path": "sprites/tab/tab.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "Tabs",
+    "path": "folders/Objects/Tabs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_skincolor_button",
+  "name": "obj_tab",
   "tags": [],
   "resourceType": "GMObject",
 }

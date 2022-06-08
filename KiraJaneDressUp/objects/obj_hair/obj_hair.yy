@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bob_blonde",
-    "path": "sprites/bob_blonde/bob_blonde.yy",
+    "name": "spr_bob_blonde",
+    "path": "sprites/spr_bob_blonde/spr_bob_blonde.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Character",
+    "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hair",
