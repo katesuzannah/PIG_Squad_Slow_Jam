@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "tab",
-    "path": "sprites/tab/tab.yy",
+    "name": "spr_bob_blonde",
+    "path": "sprites/spr_bob_blonde/spr_bob_blonde.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_tab",
-    "path": "objects/obj_tab/obj_tab.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tabs",
-    "path": "folders/Objects/Tabs.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tab_hair",
+  "name": "obj_hairButton",
   "tags": [],
   "resourceType": "GMObject",
 }
