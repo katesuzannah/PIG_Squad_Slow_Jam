@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bob_blonde",
-    "path": "sprites/spr_bob_blonde/spr_bob_blonde.yy",
+    "name": "spr_bangs_light_brown",
+    "path": "sprites/spr_bangs_light_brown/spr_bangs_light_brown.yy",
   },
   "solid": false,
   "visible": true,

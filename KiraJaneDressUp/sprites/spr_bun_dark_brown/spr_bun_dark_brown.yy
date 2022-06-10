@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Dark Brown",
-    "path": "folders/Sprites/Hair/Dark Brown.yy",
+    "path": "folders/Sprites/Hair/Old/Dark Brown.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bun_dark_brown",

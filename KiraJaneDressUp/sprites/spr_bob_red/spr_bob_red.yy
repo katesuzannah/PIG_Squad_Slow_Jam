@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Red",
-    "path": "folders/Sprites/Hair/Red.yy",
+    "path": "folders/Sprites/Hair/Old/Red.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bob_red",

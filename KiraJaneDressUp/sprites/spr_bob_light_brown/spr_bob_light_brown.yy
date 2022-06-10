@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Light Brown",
-    "path": "folders/Sprites/Hair/Light Brown.yy",
+    "path": "folders/Sprites/Hair/Old/Light Brown.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bob_light_brown",
