@@ -34,3 +34,4 @@ function changeHairButtonColor() {
 	}
 }
 //HAIR IS HERE
+//"It's all right, cause everything changes" --Owl City
