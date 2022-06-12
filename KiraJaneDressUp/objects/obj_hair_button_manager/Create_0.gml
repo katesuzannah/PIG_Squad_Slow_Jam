@@ -33,3 +33,4 @@ function changeHairButtonColor() {
 		button.sprite_index = asset_get_index(spriteString);
 	}
 }
+//HAIR IS HERE
