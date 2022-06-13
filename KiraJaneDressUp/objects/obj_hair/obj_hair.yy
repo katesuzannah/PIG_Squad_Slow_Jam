@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_bangs_light_brown",
-    "path": "sprites/spr_bangs_light_brown/spr_bangs_light_brown.yy",
+    "name": "spr_bangs_auburn",
+    "path": "sprites/spr_bangs_auburn/spr_bangs_auburn.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,7 +21,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

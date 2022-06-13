@@ -1,1 +1,2 @@
-changeHairStyle(hairStyle);
+global.currentHairStyle = hairStyle;
+changeHair();
