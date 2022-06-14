@@ -1,7 +1,6 @@
 global.hair_colors = ["white", "gray", "platinum", "blonde", "red", "auburn", "light_brown", "brown", "dark_brown", "black"];;
 global.currentHairColor = global.hair_colors[irandom(array_length(global.hair_colors)-1)];
-//global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut"];
-global.hair_styles = ["afro", "bangs"];
+global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut"];
 global.currentHairStyle = global.hair_styles[irandom(array_length(global.hair_styles)-1)];
 global.hair = instance_find(obj_hair, 0);
 changeHair();
@@ -24,7 +23,7 @@ for (var i = 0; i < array_length(hair_color_sprites); i++) {
 //Create hair style buttons
 hair_style_buttons = [];
 for (var i = 0; i < array_length(global.hair_styles); i++) {
-	var button = instance_create_layer(x + 100 * i, y + 100, layer_get_id("Hair_Options"), obj_hairButton);
+	var button = instance_create_layer(x + 100 * i, y + 150, layer_get_id("Hair_Options"), obj_hairButton);
 	button.hairStyle = global.hair_styles[i];
 	var spriteString = "spr_" + button.hairStyle + "_" + global.currentHairColor;
 	button.sprite_index = asset_get_index(spriteString);
