@@ -14,9 +14,7 @@ hair_color_sprites = [
 
 //Create hair color buttons
 for (var i = 0; i < array_length(hair_color_sprites); i++) {
-	var buttonX = x + 40 * i;
-	//0, 5 ==> 0
-	
+	var buttonX = x + 40 * (i % 5);
 	var buttonY = y + floor(i / 5) * 40;
 	var button = instance_create_layer(buttonX, buttonY, layer_get_id("Hair_Options"), obj_haircolor_button);
 	button.sprite_index = hair_color_sprites[i];
