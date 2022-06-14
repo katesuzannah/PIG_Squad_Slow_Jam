@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "menu_bg",
-    "path": "sprites/menu_bg/menu_bg.yy",
+    "name": "Sprite182",
+    "path": "sprites/Sprite182/Sprite182.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
