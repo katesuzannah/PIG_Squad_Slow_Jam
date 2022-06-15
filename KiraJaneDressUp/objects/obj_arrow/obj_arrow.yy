@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "menu_bg",
-    "path": "sprites/menu_bg/menu_bg.yy",
+    "name": "arrow",
+    "path": "sprites/arrow/arrow.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,15 +21,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu",
+  "name": "obj_arrow",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,7 +4,7 @@ ds_map_add(hairOffsets, "afropigtails", {x: 0, y: 0});
 ds_map_add(hairOffsets, "bangs", {x: 0, y: 0});
 ds_map_add(hairOffsets, "bob", {x: 0, y: 0});
 ds_map_add(hairOffsets, "boxbraids", {x: 0, y: 0});
-ds_map_add(hairOffsets, "braid", {x: 0, y: 0});
+ds_map_add(hairOffsets, "braid", {x: 0, y: -15});
 ds_map_add(hairOffsets, "curly", {x: 0, y: 0});
 ds_map_add(hairOffsets, "fingerwave", {x: 0, y: 0});
 ds_map_add(hairOffsets, "kira", {x: 0, y: 0});
