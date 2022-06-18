@@ -1,0 +1,2 @@
+global.currentEyeStyle = eyeStyle;
+changeEyes();

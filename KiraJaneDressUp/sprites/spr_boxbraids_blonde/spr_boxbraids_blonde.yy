@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"77b86a70-a258-42d2-95cc-caa4b87aa84b","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"77b86a70-a258-42d2-95cc-caa4b87aa84b","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"LayerId":{"name":"42a5b230-a67a-467d-8c99-910ef8c9ec5c","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_boxbraids_blonde","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","name":"77b86a70-a258-42d2-95cc-caa4b87aa84b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4440f723-26a7-457c-8722-f4cb3760bc0a","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4440f723-26a7-457c-8722-f4cb3760bc0a","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"LayerId":{"name":"2568d184-3770-452a-89ef-031dc3738c15","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_boxbraids_blonde","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","name":"4440f723-26a7-457c-8722-f4cb3760bc0a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_boxbraids_blonde","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6702934f-19a0-48ac-86b1-31e01471049f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77b86a70-a258-42d2-95cc-caa4b87aa84b","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dd22dd54-0f49-4dfb-b0aa-4adbc557fb77","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4440f723-26a7-457c-8722-f4cb3760bc0a","path":"sprites/spr_boxbraids_blonde/spr_boxbraids_blonde.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"42a5b230-a67a-467d-8c99-910ef8c9ec5c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2568d184-3770-452a-89ef-031dc3738c15","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -1,63 +1,67 @@
 global.eye_colors = ["gray", "hazel", "iceblue", "lightbrown", "black", "blue", "darkbrown", "green"];
 global.currentEyeColor = global.eye_colors[irandom(array_length(global.eye_colors)-1)];
 total_eye_styles = 3;
-currentEyeStyleIndex = irandom_range(1, 3);
-global.hair = instance_find(obj_hair, 0);
+global.currentEyeStyleIndex = irandom_range(1, 3);
+global.currentEyeStyle = global.currentEyeStyleIndex;
 
 function goNext() {
 	with(instance_find(obj_eye_button_manager, 0)) {
-		currentHairIndex++;
-		if (currentHairIndex > array_length(global.hair_styles)-1) {
-			currentHairIndex = 0;
+		global.currentEyeStyleIndex++;
+		if (global.currentEyeStyleIndex > total_eye_styles) {
+			global.currentEyeStyleIndex = 1;
 		}
-		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
 		button.sprite_index = asset_get_index(spriteString);
-		button.hairStyle = global.hair_styles[currentHairIndex];
+		button.eyeStyle = global.currentEyeStyleIndex;
 	}
 }
 
 function goBack() {
 	with(instance_find(obj_eye_button_manager, 0)) {
-		currentHairIndex--;
-		if (currentHairIndex < 0) {
-			currentHairIndex = array_length(global.hair_styles)-1;
+		global.currentEyeStyleIndex--;
+		if (global.currentEyeStyleIndex < 1) {
+			global.currentEyeStyleIndex = total_eye_styles;
 		}
-		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
 		button.sprite_index = asset_get_index(spriteString);
-		button.hairStyle = global.hair_styles[currentHairIndex];
+		button.eyeStyle = global.currentEyeStyleIndex;
 	}
 }
 
-//changeEyes();
+changeEyes();
 //global.eyes.adjustPosition();
 
-/*
-//Create hair color buttons
-for (var i = 0; i < array_length(hair_color_sprites); i++) {
+
+//Create eye color buttons
+for (var i = 0; i < array_length(global.eye_colors); i++) {
 	var buttonX = x + 40 * (i % 5);
 	var buttonY = y + floor(i / 5) * 40;
-	var colorButton = instance_create_layer(buttonX, buttonY, layer_get_id("Hair_Options"), obj_haircolor_button);
-	colorButton.sprite_index = hair_color_sprites[i];
-	colorButton.characterHairColor = global.hair_colors[i];
+	var colorButton = instance_create_layer(buttonX, buttonY, layer_get_id("Eye_Options"), obj_eyecolor_button);
+	var spriteString = "spr_eyecolor_" + global.eye_colors[i];
+	colorButton.sprite_index = asset_get_index(spriteString);
+	colorButton.characterEyeColor = global.eye_colors[i];
 }
 
+
 //Create style button and arrows
-var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
-button = instance_create_layer(x + 120, y + 150, layer_get_id("Hair_Options"), obj_hairButton);
+var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
+button = instance_create_layer(x + 180, y + 400, layer_get_id("Eye_Options"), obj_eyeButton);
 button.sprite_index = asset_get_index(spriteString);
-button.hairStyle = global.hair_styles[currentHairIndex];
-rightArrow = instance_create_layer(x + 220, y + 150, layer_get_id("Hair_Options"), obj_arrow);
+//button.hairStyle = global.hair_styles[currentHairIndex];
+rightArrow = instance_create_layer(x + 400, y + 400, layer_get_id("Eye_Options"), obj_arrow);
 rightArrow.action = goNext;
 
-leftArrow = instance_create_layer(x + 20, y + 150, layer_get_id("Hair_Options"), obj_arrow);
-leftArrow.image_xscale = -1;
+leftArrow = instance_create_layer(x + -30, y + 400, layer_get_id("Eye_Options"), obj_arrow);
+leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
+
+function changeEyeButtonColor() {
+	var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
+	button.sprite_index = asset_get_index(spriteString);
+}
+
+
 
 instance_activate_layer(layer_get_id("Skin_Options"));
 instance_deactivate_layer(layer_get_id("Hair_Options"));
-
-function changeHairButtonColor() {
-	var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
-	button.sprite_index = asset_get_index(spriteString);
-}
-*/
+instance_deactivate_layer(layer_get_id("Eye_Options"));

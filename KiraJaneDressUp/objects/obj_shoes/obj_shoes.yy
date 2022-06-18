@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_shoes",
-    "path": "sprites/sprite_shoes/sprite_shoes.yy",
+    "name": "spr_shoes",
+    "path": "sprites/spr_shoes/spr_shoes.yy",
   },
   "solid": false,
   "visible": true,

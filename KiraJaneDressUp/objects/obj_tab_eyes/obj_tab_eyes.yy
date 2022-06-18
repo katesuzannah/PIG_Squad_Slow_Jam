@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tab",
-    "path": "sprites/tab/tab.yy",
+    "name": "spr_tab",
+    "path": "sprites/spr_tab/spr_tab.yy",
   },
   "solid": false,
   "visible": true,

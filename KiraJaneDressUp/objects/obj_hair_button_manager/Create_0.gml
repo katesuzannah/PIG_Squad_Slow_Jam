@@ -48,18 +48,15 @@ for (var i = 0; i < array_length(hair_color_sprites); i++) {
 
 //Create style button and arrows
 var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
-button = instance_create_layer(x + 120, y + 150, layer_get_id("Hair_Options"), obj_hairButton);
+button = instance_create_layer(x + 180, y + 400, layer_get_id("Hair_Options"), obj_hairButton);
 button.sprite_index = asset_get_index(spriteString);
 button.hairStyle = global.hair_styles[currentHairIndex];
-rightArrow = instance_create_layer(x + 220, y + 150, layer_get_id("Hair_Options"), obj_arrow);
+rightArrow = instance_create_layer(x + 400, y + 400, layer_get_id("Hair_Options"), obj_arrow);
 rightArrow.action = goNext;
 
-leftArrow = instance_create_layer(x + 20, y + 150, layer_get_id("Hair_Options"), obj_arrow);
-leftArrow.image_xscale = -1;
+leftArrow = instance_create_layer(x + -30, y + 400, layer_get_id("Hair_Options"), obj_arrow);
+leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
-
-instance_activate_layer(layer_get_id("Skin_Options"));
-instance_deactivate_layer(layer_get_id("Hair_Options"));
 
 function changeHairButtonColor() {
 	var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
