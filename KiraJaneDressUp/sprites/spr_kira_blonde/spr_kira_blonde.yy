@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 501,
   "bbox_top": 0,
-  "bbox_bottom": 636,
+  "bbox_bottom": 571,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 502,
-  "height": 637,
+  "height": 572,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e115b84d-d9ff-4b7f-8cce-7241cdc8ce34","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e115b84d-d9ff-4b7f-8cce-7241cdc8ce34","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"LayerId":{"name":"c20fd8ed-ae88-45b6-9ef5-6ce67fde101d","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kira_blonde","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","name":"e115b84d-d9ff-4b7f-8cce-7241cdc8ce34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5b597f6e-ee81-4a42-b248-6ba9b3526490","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5b597f6e-ee81-4a42-b248-6ba9b3526490","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"LayerId":{"name":"362f8b35-4d5a-4ba2-b0ee-fb87d0ad8366","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_kira_blonde","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","name":"5b597f6e-ee81-4a42-b248-6ba9b3526490","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_kira_blonde","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0b242718-9db8-4bb1-b132-b797955dc662","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e115b84d-d9ff-4b7f-8cce-7241cdc8ce34","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77645c21-d76b-4899-be94-0dde377bf967","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b597f6e-ee81-4a42-b248-6ba9b3526490","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 251,
-    "yorigin": 318,
+    "yorigin": 286,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_kira_blonde","path":"sprites/spr_kira_blonde/spr_kira_blonde.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c20fd8ed-ae88-45b6-9ef5-6ce67fde101d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"362f8b35-4d5a-4ba2-b0ee-fb87d0ad8366","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
