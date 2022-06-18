@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "rightarrow",
-    "path": "sprites/rightarrow/rightarrow.yy",
+    "name": "sprite_shoes",
+    "path": "sprites/sprite_shoes/sprite_shoes.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "Character",
+    "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_arrow",
+  "name": "obj_shoes",
   "tags": [],
   "resourceType": "GMObject",
 }

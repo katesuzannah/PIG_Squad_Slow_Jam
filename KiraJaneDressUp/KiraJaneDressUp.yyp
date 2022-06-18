@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"leftarrow","path":"sprites/leftarrow/leftarrow.yy",},"order":5,},
     {"id":{"name":"spr_short_gray","path":"sprites/spr_short_gray/spr_short_gray.yy",},"order":3,},
     {"id":{"name":"spr_straight_brown","path":"sprites/spr_straight_brown/spr_straight_brown.yy",},"order":7,},
+    {"id":{"name":"obj_shoes","path":"objects/obj_shoes/obj_shoes.yy",},"order":3,},
     {"id":{"name":"eyes_1_gray","path":"sprites/eyes_1_gray/eyes_1_gray.yy",},"order":3,},
     {"id":{"name":"spr_character_skincolor_2","path":"sprites/spr_character_skincolor_2/spr_character_skincolor_2.yy",},"order":11,},
     {"id":{"name":"spr_afropigtails_platinum","path":"sprites/spr_afropigtails_platinum/spr_afropigtails_platinum.yy",},"order":9,},
@@ -50,6 +52,7 @@
     {"id":{"name":"spr_braid_blonde","path":"sprites/spr_braid_blonde/spr_braid_blonde.yy",},"order":4,},
     {"id":{"name":"spr_bob_white","path":"sprites/spr_bob_white/spr_bob_white.yy",},"order":0,},
     {"id":{"name":"spr_straight_light_brown","path":"sprites/spr_straight_light_brown/spr_straight_light_brown.yy",},"order":9,},
+    {"id":{"name":"sprite_shoes","path":"sprites/sprite_shoes/sprite_shoes.yy",},"order":6,},
     {"id":{"name":"spr_longafro_blonde","path":"sprites/spr_longafro_blonde/spr_longafro_blonde.yy",},"order":8,},
     {"id":{"name":"obj_tab_eyes","path":"objects/obj_tab_eyes/obj_tab_eyes.yy",},"order":3,},
     {"id":{"name":"spr_skincolor_5","path":"sprites/spr_skincolor_5/spr_skincolor_5.yy",},"order":4,},
@@ -64,6 +67,7 @@
     {"id":{"name":"spr_eyes_2_green","path":"sprites/spr_eyes_2_green/spr_eyes_2_green.yy",},"order":5,},
     {"id":{"name":"spr_undercut_red","path":"sprites/spr_undercut_red/spr_undercut_red.yy",},"order":1,},
     {"id":{"name":"spr_boxbraids_auburn","path":"sprites/spr_boxbraids_auburn/spr_boxbraids_auburn.yy",},"order":7,},
+    {"id":{"name":"rightarrow","path":"sprites/rightarrow/rightarrow.yy",},"order":6,},
     {"id":{"name":"spr_eyes_3_iceblue","path":"sprites/spr_eyes_3_iceblue/spr_eyes_3_iceblue.yy",},"order":7,},
     {"id":{"name":"lips_1","path":"sprites/lips_1/lips_1.yy",},"order":0,},
     {"id":{"name":"spr_haircolor_blonde","path":"sprites/spr_haircolor_blonde/spr_haircolor_blonde.yy",},"order":0,},
