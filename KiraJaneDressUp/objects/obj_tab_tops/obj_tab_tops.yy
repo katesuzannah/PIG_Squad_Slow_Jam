@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "spr_character_skincolor_3",
-    "path": "sprites/spr_character_skincolor_3/spr_character_skincolor_3.yy",
+    "name": "spr_tab",
+    "path": "sprites/spr_tab/spr_tab.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tab",
+    "path": "objects/obj_tab/obj_tab.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,16 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Character",
-    "path": "folders/Objects/Character.yy",
+    "name": "Tabs",
+    "path": "folders/Objects/Tabs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_character",
+  "name": "obj_tab_tops",
   "tags": [],
   "resourceType": "GMObject",
 }

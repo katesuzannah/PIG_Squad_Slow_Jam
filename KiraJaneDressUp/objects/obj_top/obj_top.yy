@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_character_skincolor_3",
-    "path": "sprites/spr_character_skincolor_3/spr_character_skincolor_3.yy",
+    "name": "spr_top_9",
+    "path": "sprites/spr_top_9/spr_top_9.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_character",
+  "name": "obj_top",
   "tags": [],
   "resourceType": "GMObject",
 }

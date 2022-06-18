@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_character_skincolor_3",
-    "path": "sprites/spr_character_skincolor_3/spr_character_skincolor_3.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Character",
-    "path": "folders/Objects/Character.yy",
+    "name": "Button Managers",
+    "path": "folders/Objects/Button Managers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_character",
+  "name": "obj_dress_button_manager",
   "tags": [],
   "resourceType": "GMObject",
 }

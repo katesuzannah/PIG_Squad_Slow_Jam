@@ -4,4 +4,3 @@ for (var i = 0; i < array_length(skin_color_sprites); i++) {
 	button.sprite_index = skin_color_sprites[i];
 	button.characterSkinColor = global.character_sprites[i];
 }
-//Skin is...here?

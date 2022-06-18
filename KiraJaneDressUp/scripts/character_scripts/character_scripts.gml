@@ -12,3 +12,7 @@ function changeEyes() {
 	var spriteString = "spr_eyes_" + string(global.currentEyeStyle) + "_" + global.currentEyeColor;
 	instance_find(obj_eyes, 0).sprite_index = asset_get_index(spriteString);
 }
+
+function changeTop() {
+	instance_find(obj_top, 0).sprite_index = global.currentTopOnDoll;
+}

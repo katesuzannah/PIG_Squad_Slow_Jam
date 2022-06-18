@@ -14,3 +14,18 @@ else if (type == "eyes") {
 	instance_deactivate_layer("Hair_Options");
 	instance_deactivate_layer("Skin_Options");
 }
+else if (type == "tops") {
+	instance_activate_layer("Top_Options");
+	instance_deactivate_layer("Bottom_Options");
+	instance_deactivate_layer("Dress_Options");
+}
+else if (type == "bottoms") {
+	instance_activate_layer("Bottom_Options");
+	instance_deactivate_layer("Top_Options");
+	instance_deactivate_layer("Dress_Options");
+}
+else if (type == "dresses") {
+	instance_activate_layer("Dress_Options");
+	instance_deactivate_layer("Bottom_Options");
+	instance_deactivate_layer("Top_Options");
+}

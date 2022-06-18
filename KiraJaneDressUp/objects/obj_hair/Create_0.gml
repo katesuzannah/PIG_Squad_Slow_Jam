@@ -6,7 +6,7 @@ ds_map_add(hairOffsets, "bob", {x: 0, y: -35, scale: image_xscale});
 ds_map_add(hairOffsets, "boxbraids", {x: 4, y: -5, scale: image_xscale * .86});
 ds_map_add(hairOffsets, "braid", {x: -4, y: -15, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "curly", {x: 0, y: -13, scale: image_xscale * .9});
-ds_map_add(hairOffsets, "fingerwave", {x: -2, y: -25, scale: image_xscale * .9});
+ds_map_add(hairOffsets, "fingerwave", {x: -2, y: -28, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "kira", {x: 8, y: -1, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "longafro", {x: -2, y: -25, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "short", {x: -3, y: -38, scale: image_xscale * .92});

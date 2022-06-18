@@ -2,6 +2,13 @@ global.hair_colors = ["white", "gray", "platinum", "blonde", "red", "auburn", "l
 global.currentHairColor = global.hair_colors[irandom(array_length(global.hair_colors)-1)];
 global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut"];
 currentHairIndex = irandom(array_length(global.hair_styles)-1);
+
+//If randomly generated skintone is white, don't randomly give her a black hairstyle
+if (global.skinColorIndex == 0 || global.skinColorIndex == 1) {
+	if (currentHairIndex == 0 || currentHairIndex == 1 || currentHairIndex == 4 || currentHairIndex == 9) {
+		currentHairIndex = 2;
+	}
+}
 global.currentHairStyle = global.hair_styles[currentHairIndex];
 global.hair = instance_find(obj_hair, 0);
 
