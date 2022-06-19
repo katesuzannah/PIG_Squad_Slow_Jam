@@ -30,3 +30,6 @@ rightArrow.action = goNext;
 leftArrow = instance_create_layer(x + 50, y + 280, layer_get_id("Top_Options"), obj_arrow);
 leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
+
+//Tuck/untuck toggle
+instance_create_layer(x + 300, y, "Top_Options", obj_tuckToggle);

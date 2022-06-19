@@ -8,6 +8,7 @@ function goNext() {
 			currentBottomIndex = 0;
 		}
 		button.sprite_index = bottomSprites[currentBottomIndex];
+		button.adjustPosition();
 	}
 }
 
@@ -18,15 +19,20 @@ function goBack() {
 			currentBottomIndex = array_length(bottomSprites)-1;
 		}
 		button.sprite_index = bottomSprites[currentBottomIndex];
+		button.adjustPosition();
 	}
 }
 
 //Create style button and arrows
 button = instance_create_layer(x + 270, y + 280, layer_get_id("Bottom_Options"), obj_bottomButton);
 button.sprite_index = bottomSprites[currentBottomIndex];
+button.adjustPosition();
 rightArrow = instance_create_layer(x + 500, y + 280, layer_get_id("Bottom_Options"), obj_arrow);
 rightArrow.action = goNext;
 
 leftArrow = instance_create_layer(x + 50, y + 280, layer_get_id("Bottom_Options"), obj_arrow);
 leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
+
+//Tuck/untuck toggle
+instance_create_layer(x + 300, y, "Bottom_Options", obj_tuckToggle);
