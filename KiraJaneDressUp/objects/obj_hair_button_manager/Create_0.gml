@@ -1,3 +1,12 @@
+global.hair = instance_find(obj_hair, 0);
+global.dress = instance_find(obj_dress, 0);
+global.top = instance_find(obj_top, 0);
+global.bottom = instance_find(obj_bottom, 0);
+global.eyes = instance_find(obj_eyes, 0);
+global.lips = instance_find(obj_lips, 0);
+global.character = instance_find(obj_character, 0);
+
+
 global.hair_colors = ["white", "gray", "platinum", "blonde", "red", "auburn", "light_brown", "brown", "dark_brown", "black"];;
 global.currentHairColor = global.hair_colors[irandom(array_length(global.hair_colors)-1)];
 global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut"];
@@ -10,7 +19,6 @@ if (global.skinColorIndex == 0 || global.skinColorIndex == 1) {
 	}
 }
 global.currentHairStyle = global.hair_styles[currentHairIndex];
-global.hair = instance_find(obj_hair, 0);
 
 function goNext() {
 	with(instance_find(obj_hair_button_manager, 0)) {

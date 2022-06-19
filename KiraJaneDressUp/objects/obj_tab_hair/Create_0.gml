@@ -1,1 +1,1 @@
-type = "hair";
+tabType = "hair";

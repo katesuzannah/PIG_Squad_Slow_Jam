@@ -1,1 +1,1 @@
-type = "skin";
+tabType = "skin";

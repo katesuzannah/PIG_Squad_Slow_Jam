@@ -1,1 +1,1 @@
-type = "tops";
+tabType = "tops";

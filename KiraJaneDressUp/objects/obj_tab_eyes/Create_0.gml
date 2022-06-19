@@ -1,1 +1,1 @@
-type = "eyes";
+tabType = "eyes";

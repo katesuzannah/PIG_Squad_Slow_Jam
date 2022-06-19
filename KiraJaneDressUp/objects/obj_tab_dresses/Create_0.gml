@@ -1,1 +1,1 @@
-type = "dresses";
+tabType = "dresses";

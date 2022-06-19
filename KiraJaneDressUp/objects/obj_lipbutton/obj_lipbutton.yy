@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_tab",
-    "path": "sprites/spr_tab/spr_tab.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,17 +19,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tabs",
-    "path": "folders/Objects/Tabs.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tab",
+  "name": "obj_lipButton",
   "tags": [],
   "resourceType": "GMObject",
 }

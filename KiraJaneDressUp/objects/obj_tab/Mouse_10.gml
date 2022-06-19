@@ -1,1 +1,0 @@
-targetY = startY-20;

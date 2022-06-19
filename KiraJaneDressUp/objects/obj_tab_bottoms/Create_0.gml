@@ -1,1 +1,1 @@
-type = "bottoms";
+tabType = "bottoms";

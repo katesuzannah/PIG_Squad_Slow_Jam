@@ -59,9 +59,3 @@ function changeEyeButtonColor() {
 	var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
 	button.sprite_index = asset_get_index(spriteString);
 }
-
-
-
-instance_activate_layer(layer_get_id("Skin_Options"));
-instance_deactivate_layer(layer_get_id("Hair_Options"));
-instance_deactivate_layer(layer_get_id("Eye_Options"));

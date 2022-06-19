@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tab",
-    "path": "sprites/spr_tab/spr_tab.yy",
+    "name": "spr_lips_1",
+    "path": "sprites/spr_lips_1/spr_lips_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tabs",
-    "path": "folders/Objects/Tabs.yy",
+    "name": "Character",
+    "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tab",
+  "name": "obj_lips",
   "tags": [],
   "resourceType": "GMObject",
 }

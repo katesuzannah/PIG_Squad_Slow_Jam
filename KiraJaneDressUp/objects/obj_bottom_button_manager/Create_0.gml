@@ -1,57 +1,36 @@
-/*global.eye_colors = ["gray", "hazel", "iceblue", "lightbrown", "black", "blue", "darkbrown", "green"];
-global.currentEyeColor = global.eye_colors[irandom(array_length(global.eye_colors)-1)];
-total_eye_styles = 3;
-global.currentEyeStyleIndex = irandom_range(1, 3);
-global.currentEyeStyle = global.currentEyeStyleIndex;
+global.bottomSprites = [spr_pant_1, spr_pant_2, spr_pant_3, spr_skirt_1, spr_skirt_2, spr_skirt_3, spr_skirt_4, spr_skirt_5, spr_skirt_6, spr_skirt_7];
+global.currentBottomIndex = irandom(array_length(global.bottomSprites)-1);
 
 function goNext() {
-	with(instance_find(obj_eye_button_manager, 0)) {
-		global.currentEyeStyleIndex++;
-		if (global.currentEyeStyleIndex > total_eye_styles) {
-			global.currentEyeStyleIndex = 1;
+	with(instance_find(obj_bottom_button_manager, 0)) {
+		global.currentBottomIndex++;
+		if (global.currentBottomIndex > array_length(global.bottomSprites)-1) {
+			global.currentBottomIndex = 0;
 		}
-		var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
-		button.sprite_index = asset_get_index(spriteString);
-		button.eyeStyle = global.currentEyeStyleIndex;
+		button.sprite_index = global.bottomSprites[global.currentBottomIndex];
 	}
 }
 
 function goBack() {
-	with(instance_find(obj_eye_button_manager, 0)) {
-		global.currentEyeStyleIndex--;
-		if (global.currentEyeStyleIndex < 1) {
-			global.currentEyeStyleIndex = total_eye_styles;
+	with(instance_find(obj_bottom_button_manager, 0)) {
+		global.currentBottomIndex--;
+		if (global.currentBottomIndex < 0) {
+			global.currentBottomIndex = array_length(global.bottomSprites)-1;
 		}
-		var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
-		button.sprite_index = asset_get_index(spriteString);
-		button.eyeStyle = global.currentEyeStyleIndex;
+		button.sprite_index = global.bottomSprites[global.currentBottomIndex];
 	}
 }
 
-changeEyes();
-//global.eyes.adjustPosition();
-
-
-//Create eye color buttons
-for (var i = 0; i < array_length(global.eye_colors); i++) {
-	var buttonX = x + 40 * (i % 5);
-	var buttonY = y + floor(i / 5) * 40;
-	var colorButton = instance_create_layer(buttonX, buttonY, layer_get_id("Bottom_Options"), obj_eyecolor_button);
-	var spriteString = "spr_eyecolor_" + global.eye_colors[i];
-	colorButton.sprite_index = asset_get_index(spriteString);
-	colorButton.characterEyeColor = global.eye_colors[i];
-}
-
-
 //Create style button and arrows
-var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
-button = instance_create_layer(x + 180, y + 400, layer_get_id("Bottom_Options"), obj_eyeButton);
-button.sprite_index = asset_get_index(spriteString);
-//button.hairStyle = global.hair_styles[currentHairIndex];
+button = instance_create_layer(x + 180, y + 400, layer_get_id("Bottom_Options"), obj_bottomButton);
+button.sprite_index = global.bottomSprites[global.currentBottomIndex];
 rightArrow = instance_create_layer(x + 400, y + 400, layer_get_id("Bottom_Options"), obj_arrow);
 rightArrow.action = goNext;
 
 leftArrow = instance_create_layer(x + -30, y + 400, layer_get_id("Bottom_Options"), obj_arrow);
 leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
-*/
+
+instance_activate_layer("Top_Options");
+instance_deactivate_layer("Bottom_Options");
+instance_deactivate_layer("Dress_Options");

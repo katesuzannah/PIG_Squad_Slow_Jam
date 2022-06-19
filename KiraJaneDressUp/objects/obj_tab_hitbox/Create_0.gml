@@ -1,0 +1,1 @@
+tab = instance_create_layer(x, y, "UI", myTabObj);
