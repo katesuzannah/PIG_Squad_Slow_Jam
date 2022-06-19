@@ -1,34 +1,39 @@
 function changeSkinColor(sprite) {
-	global.character.sprite_index = sprite;
+	instance_find(obj_character, 0).sprite_index = sprite;
 }
 
 function changeHair() {
+	var hair = instance_find(obj_hair, 0);
 	var hairString = "spr_" + global.currentHairStyle + "_" + global.currentHairColor;
-	global.hair.sprite_index = asset_get_index(hairString);
-	global.hair.adjustPosition();
+	hair.sprite_index = asset_get_index(hairString);
+	hair.adjustPosition();
 }
 
 function changeEyes() {
 	var spriteString = "spr_eyes_" + string(global.currentEyeStyle) + "_" + global.currentEyeColor;
-	global.eyes.sprite_index = asset_get_index(spriteString);
+	instance_find(obj_eyes, 0).sprite_index = asset_get_index(spriteString);
 }
 
-function changeLips(lips) {
-	global.lips.sprite_index = lips;
+function changeLips(lipSprite) {
+	instance_find(obj_lips, 0).sprite_index = lipSprite;
 }
 
-function changeTop() {
-	global.top.sprite_index = global.currentTopOnDoll;
-	global.dress.sprite_index = noone;
+function changeTop(topSprite) {
+	instance_find(obj_top, 0).sprite_index = topSprite;
+	instance_find(obj_dress, 0).sprite_index = noone;
 }
 
-function changeBottoms() {
-	global.bottom.sprite_index = global.currentBottomsOnDoll;
-	global.dress.sprite_index = noone;
+function changeBottoms(bottomSprite) {
+	instance_find(obj_bottom, 0).sprite_index = bottomSprite;
+	instance_find(obj_dress, 0).sprite_index = noone;
 }
 
-function changeDress() {
-	global.dress.sprite_index = global.currentDressOnDoll;
-	global.bottom.sprite_index = noone;
-	global.top.sprite_index = noone;
+function changeDress(dressSprite) {
+	instance_find(obj_dress, 0).sprite_index = dressSprite;
+	instance_find(obj_bottom, 0).sprite_index = noone;
+	instance_find(obj_top, 0).sprite_index = noone;
+}
+
+function changeShoes(shoeSprite) {
+	instance_find(obj_shoes, 0).sprite_index = shoeSprite;
 }

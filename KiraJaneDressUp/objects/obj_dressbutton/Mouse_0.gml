@@ -1,2 +1,1 @@
-global.currentDressOnDoll = sprite_index;
-changeDress();
+changeDress(sprite_index);

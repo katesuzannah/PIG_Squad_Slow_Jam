@@ -29,13 +29,11 @@ function goBack() {
 }
 
 changeEyes();
-//global.eyes.adjustPosition();
-
 
 //Create eye color buttons
 for (var i = 0; i < array_length(global.eye_colors); i++) {
-	var buttonX = x + 40 * (i % 5);
-	var buttonY = y + floor(i / 5) * 40;
+	var buttonX = x + 100 * (i % 5) - 48;
+	var buttonY = y + floor(i / 5) * 100 + 100;
 	var colorButton = instance_create_layer(buttonX, buttonY, layer_get_id("Eye_Options"), obj_eyecolor_button);
 	var spriteString = "spr_eyecolor_" + global.eye_colors[i];
 	colorButton.sprite_index = asset_get_index(spriteString);
@@ -45,13 +43,13 @@ for (var i = 0; i < array_length(global.eye_colors); i++) {
 
 //Create style button and arrows
 var spriteString = "spr_eyes_" + string(global.currentEyeStyleIndex) + "_" + global.currentEyeColor;
-button = instance_create_layer(x + 180, y + 400, layer_get_id("Eye_Options"), obj_eyeButton);
+button = instance_create_layer(x + 150, y + 430, layer_get_id("Eye_Options"), obj_eyeButton);
 button.sprite_index = asset_get_index(spriteString);
 button.eyeStyle = global.currentEyeStyleIndex;
-rightArrow = instance_create_layer(x + 400, y + 400, layer_get_id("Eye_Options"), obj_arrow);
+rightArrow = instance_create_layer(x + 380, y + 430, layer_get_id("Eye_Options"), obj_arrow);
 rightArrow.action = goNext;
 
-leftArrow = instance_create_layer(x + -30, y + 400, layer_get_id("Eye_Options"), obj_arrow);
+leftArrow = instance_create_layer(x + -70, y + 430, layer_get_id("Eye_Options"), obj_arrow);
 leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
 

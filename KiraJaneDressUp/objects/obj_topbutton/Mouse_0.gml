@@ -1,2 +1,1 @@
-global.currentTopOnDoll = sprite_index;
-changeTop();
+changeTop(sprite_index);

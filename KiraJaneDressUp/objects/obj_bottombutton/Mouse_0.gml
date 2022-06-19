@@ -1,2 +1,1 @@
-global.currentBottomsOnDoll = sprite_index;
-changeBottoms();
+changeBottoms(sprite_index);
