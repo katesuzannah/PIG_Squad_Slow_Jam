@@ -5,8 +5,16 @@ function changeSkinColor(sprite) {
 function changeHair() {
 	var hair = instance_find(obj_hair, 0);
 	var hairString = "spr_" + global.currentHairStyle + "_" + global.currentHairColor;
-	hair.sprite_index = asset_get_index(hairString);
-	hair.adjustPosition();
+	var eyebrows = instance_find(obj_eyebrows, 0);
+	if (global.currentHairStyle == "bald") {
+		hair.sprite_index = noone;
+		eyebrows.sprite_index = asset_get_index("spr_eyebrows_" + global.currentHairColor);
+	}
+	else {
+		eyebrows.sprite_index = noone;
+		hair.sprite_index = asset_get_index(hairString);
+		hair.adjustPosition();
+	}
 }
 
 function changeEyes() {

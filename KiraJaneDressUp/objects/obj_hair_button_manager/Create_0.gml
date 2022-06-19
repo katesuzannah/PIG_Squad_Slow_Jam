@@ -1,6 +1,6 @@
 global.hair_colors = ["white", "gray", "platinum", "blonde", "red", "auburn", "light_brown", "brown", "dark_brown", "black"];;
 global.currentHairColor = global.hair_colors[irandom(array_length(global.hair_colors)-1)];
-global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut"];
+global.hair_styles = ["afro", "afropigtails", "bangs", "bob", "boxbraids", "braid", "curly", "fingerwave", "kira", "longafro", "short", "shortwavy", "straight", "undercut", "bald"];
 currentHairIndex = irandom(array_length(global.hair_styles)-1);
 
 //If randomly generated skintone is white, don't randomly give her a black hairstyle
@@ -18,6 +18,9 @@ function goNext() {
 			currentHairIndex = 0;
 		}
 		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		if (global.hair_styles[currentHairIndex] == "bald") {
+			spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+		}
 		button.sprite_index = asset_get_index(spriteString);
 		button.hairStyle = global.hair_styles[currentHairIndex];
 	}
@@ -30,6 +33,9 @@ function goBack() {
 			currentHairIndex = array_length(global.hair_styles)-1;
 		}
 		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		if (global.hair_styles[currentHairIndex] == "bald") {
+			spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+		}
 		button.sprite_index = asset_get_index(spriteString);
 		button.hairStyle = global.hair_styles[currentHairIndex];
 	}
@@ -54,6 +60,10 @@ for (var i = 0; i < array_length(hair_color_sprites); i++) {
 
 //Create style button and arrows
 var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+//Account for bald option
+if (global.hair_styles[currentHairIndex] == "bald") {
+	spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+}
 button = instance_create_layer(x + 150, y + 430, layer_get_id("Hair_Options"), obj_hairButton);
 button.sprite_index = asset_get_index(spriteString);
 button.hairStyle = global.hair_styles[currentHairIndex];
