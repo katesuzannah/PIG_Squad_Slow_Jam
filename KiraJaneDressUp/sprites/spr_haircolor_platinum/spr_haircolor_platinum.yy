@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 11,
-  "bbox_right": 41,
-  "bbox_top": 18,
-  "bbox_bottom": 48,
+  "bbox_left": 0,
+  "bbox_right": 162,
+  "bbox_top": 0,
+  "bbox_bottom": 155,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 163,
+  "height": 156,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"LayerId":{"name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_haircolor_platinum","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9d1b8912-a3c2-4029-a4f1-9b99952bba00","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9d1b8912-a3c2-4029-a4f1-9b99952bba00","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"LayerId":{"name":"027aff2b-cb6a-4b12-aaf4-573cf78587bb","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_haircolor_platinum","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","name":"9d1b8912-a3c2-4029-a4f1-9b99952bba00","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_haircolor_platinum","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"abcab398-93bb-48cd-9733-caae626653d1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a0aa7ac8-2813-49e3-8f0f-b143296311a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d1b8912-a3c2-4029-a4f1-9b99952bba00","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 26,
-    "yorigin": 34,
+    "xorigin": 81,
+    "yorigin": 78,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_haircolor_platinum","path":"sprites/spr_haircolor_platinum/spr_haircolor_platinum.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"027aff2b-cb6a-4b12-aaf4-573cf78587bb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

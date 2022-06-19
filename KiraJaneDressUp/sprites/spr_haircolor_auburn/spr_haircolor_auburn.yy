@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 11,
-  "bbox_right": 41,
-  "bbox_top": 18,
-  "bbox_bottom": 48,
+  "bbox_left": 0,
+  "bbox_right": 162,
+  "bbox_top": 0,
+  "bbox_bottom": 155,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 163,
+  "height": 156,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"LayerId":{"name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_haircolor_auburn","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f0cd87d-e7ea-472a-a47b-3bb7fef98dcf","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f0cd87d-e7ea-472a-a47b-3bb7fef98dcf","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"LayerId":{"name":"70ee0152-ff54-4126-a360-1e551f7350b0","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_haircolor_auburn","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","name":"7f0cd87d-e7ea-472a-a47b-3bb7fef98dcf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_haircolor_auburn","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6cdf011f-6b0b-4830-a6fe-b7ebaf59b854","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bc4edf4f-f877-443b-8393-3bf04670c853","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f0cd87d-e7ea-472a-a47b-3bb7fef98dcf","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 26,
-    "yorigin": 34,
+    "xorigin": 81,
+    "yorigin": 78,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_haircolor_auburn","path":"sprites/spr_haircolor_auburn/spr_haircolor_auburn.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70ee0152-ff54-4126-a360-1e551f7350b0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

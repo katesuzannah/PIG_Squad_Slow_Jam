@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 11,
-  "bbox_right": 41,
-  "bbox_top": 18,
-  "bbox_bottom": 48,
+  "bbox_left": 0,
+  "bbox_right": 162,
+  "bbox_top": 0,
+  "bbox_bottom": 155,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 163,
+  "height": 156,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"LayerId":{"name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_haircolor_light_brown","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"67bab0a7-09e4-437d-b591-3ddc2e0f94a4","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"67bab0a7-09e4-437d-b591-3ddc2e0f94a4","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"LayerId":{"name":"83aead4b-879e-4d1a-8727-836b96d53654","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_haircolor_light_brown","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","name":"67bab0a7-09e4-437d-b591-3ddc2e0f94a4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_haircolor_light_brown","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"722c054d-80de-4825-aa6c-8c2618230c08","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbb564e8-480b-4bd4-8b7c-f75951d6d1a1","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cec59de1-4cfc-419c-af24-55229f4c6b3f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67bab0a7-09e4-437d-b591-3ddc2e0f94a4","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 26,
-    "yorigin": 34,
+    "xorigin": 81,
+    "yorigin": 78,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_haircolor_light_brown","path":"sprites/spr_haircolor_light_brown/spr_haircolor_light_brown.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d67fa69-aa2f-4b88-95b8-3d480ce22de8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"83aead4b-879e-4d1a-8727-836b96d53654","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
