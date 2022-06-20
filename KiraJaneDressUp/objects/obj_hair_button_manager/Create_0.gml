@@ -76,5 +76,8 @@ leftArrow.action = goBack;
 
 function changeHairButtonColor() {
 	var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+	if (global.hair_styles[currentHairIndex] == "bald") {
+		spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+	}
 	button.sprite_index = asset_get_index(spriteString);
 }
