@@ -32,4 +32,4 @@ leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
 
 //Tuck/untuck toggle
-instance_create_layer(x + 300, y, "Top_Options", obj_tuckToggle);
+instance_create_layer(x + 268, y + 600, "Top_Options", obj_tuckToggle);

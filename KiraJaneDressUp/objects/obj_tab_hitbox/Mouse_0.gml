@@ -2,6 +2,7 @@
 switch (tab.tabType) {
 	case "hair":
 		instance_activate_layer("Hair_Options");
+		instance_activate_layer("Bald_Button_Brow_Layer");
 		instance_deactivate_layer("Lip_Options");
 		instance_deactivate_layer("Skin_Options");
 		instance_deactivate_layer("Eye_Options");
@@ -10,18 +11,21 @@ switch (tab.tabType) {
 		instance_activate_layer("Skin_Options");
 		instance_deactivate_layer("Lip_Options");
 		instance_deactivate_layer("Hair_Options");
+		instance_deactivate_layer("Bald_Button_Brow_Layer");
 		instance_deactivate_layer("Eye_Options");
 	break;
 	case "eyes":
 		instance_activate_layer("Eye_Options");
 		instance_deactivate_layer("Lip_Options");
 		instance_deactivate_layer("Hair_Options");
+		instance_deactivate_layer("Bald_Button_Brow_Layer");
 		instance_deactivate_layer("Skin_Options");
 	break;
 	case "lips":
 		instance_activate_layer("Lip_Options");
 		instance_deactivate_layer("Eye_Options");
 		instance_deactivate_layer("Hair_Options");
+		instance_deactivate_layer("Bald_Button_Brow_Layer");
 		instance_deactivate_layer("Skin_Options");
 	break;
 	case "tops":

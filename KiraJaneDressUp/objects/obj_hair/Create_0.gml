@@ -13,6 +13,7 @@ ds_map_add(hairOffsets, "short", {x: -3, y: -38, scale: image_xscale * .92});
 ds_map_add(hairOffsets, "shortwavy", {x: -1, y: -30, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "straight", {x: -2, y: -4, scale: image_xscale * .9});
 ds_map_add(hairOffsets, "undercut", {x: -1, y: -32, scale: image_xscale * .9});
+ds_map_add(hairOffsets, "bald", {x: 0, y: 0, scale: image_xscale});
 
 startX = x;
 startY = y;

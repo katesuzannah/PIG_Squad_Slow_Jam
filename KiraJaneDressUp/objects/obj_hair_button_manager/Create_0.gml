@@ -18,8 +18,9 @@ function goNext() {
 			currentHairIndex = 0;
 		}
 		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		buttonBrows.sprite_index = noone;
 		if (global.hair_styles[currentHairIndex] == "bald") {
-			spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+			spriteString = setBaldString();
 		}
 		button.sprite_index = asset_get_index(spriteString);
 		button.hairStyle = global.hair_styles[currentHairIndex];
@@ -33,8 +34,9 @@ function goBack() {
 			currentHairIndex = array_length(global.hair_styles)-1;
 		}
 		var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+		buttonBrows.sprite_index = noone;
 		if (global.hair_styles[currentHairIndex] == "bald") {
-			spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+			spriteString = setBaldString();
 		}
 		button.sprite_index = asset_get_index(spriteString);
 		button.hairStyle = global.hair_styles[currentHairIndex];
@@ -59,14 +61,19 @@ for (var i = 0; i < array_length(hair_color_sprites); i++) {
 }
 
 //Create style button and arrows
-var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
-//Account for bald option
-if (global.hair_styles[currentHairIndex] == "bald") {
-	spriteString = "spr_face_" + string(global.skinColorIndex + 1);
-}
+
 button = instance_create_layer(x + 150, y + 430, layer_get_id("Hair_Options"), obj_hairButton);
-button.sprite_index = asset_get_index(spriteString);
 button.hairStyle = global.hair_styles[currentHairIndex];
+
+buttonBrows = instance_create_layer(button.x, button.y - 20, layer_get_id("Bald_Button_Brow_Layer"), obj_buttonBrows);
+buttonBrows.sprite_index = noone;
+
+function setBaldString() {
+	buttonBrows.sprite_index = asset_get_index("spr_eyebrows_" + global.currentHairColor);
+	var str = "spr_face_" + string(global.skinColorIndex + 1);
+	return str;
+}
+
 rightArrow = instance_create_layer(x + 380, y + 430, layer_get_id("Hair_Options"), obj_arrow);
 rightArrow.action = goNext;
 
@@ -74,10 +81,20 @@ leftArrow = instance_create_layer(x + -70, y + 430, layer_get_id("Hair_Options")
 leftArrow.sprite_index = spr_leftarrow;
 leftArrow.action = goBack;
 
+//Set sprite for button and buttonBrows
+var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+buttonBrows.sprite_index = noone;
+//Account for bald option
+if (global.hair_styles[currentHairIndex] == "bald") {
+	spriteString = setBaldString();
+}
+button.sprite_index = asset_get_index(spriteString);
+
 function changeHairButtonColor() {
 	var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
+	buttonBrows.sprite_index = noone;
 	if (global.hair_styles[currentHairIndex] == "bald") {
-		spriteString = "spr_face_" + string(global.skinColorIndex + 1);
+		spriteString = setBaldString();
 	}
 	button.sprite_index = asset_get_index(spriteString);
 }
