@@ -12,3 +12,4 @@ instance_activate_layer(layer_get_id("Skin_Options"));
 instance_deactivate_layer(layer_get_id("Hair_Options"));
 instance_deactivate_layer(layer_get_id("Eye_Options"));
 instance_deactivate_layer(layer_get_id("Lip_Options"));
+instance_deactivate_layer(layer_get_id("Bald_Button_Brow_Layer"));

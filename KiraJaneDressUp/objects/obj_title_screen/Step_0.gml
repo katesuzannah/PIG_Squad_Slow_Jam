@@ -1,0 +1,1 @@
+image_alpha = lerp(image_alpha, targetAlpha, .2);

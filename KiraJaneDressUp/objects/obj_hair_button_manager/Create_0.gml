@@ -84,6 +84,7 @@ leftArrow.action = goBack;
 //Set sprite for button and buttonBrows
 var spriteString = "spr_" + global.hair_styles[currentHairIndex] + "_" + global.currentHairColor;
 buttonBrows.sprite_index = noone;
+
 //Account for bald option
 if (global.hair_styles[currentHairIndex] == "bald") {
 	spriteString = setBaldString();
