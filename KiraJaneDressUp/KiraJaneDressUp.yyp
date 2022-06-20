@@ -171,6 +171,7 @@
     {"id":{"name":"spr_eyes_1_lightbrown","path":"sprites/spr_eyes_1_lightbrown/spr_eyes_1_lightbrown.yy",},"order":7,},
     {"id":{"name":"spr_skincolor_2","path":"sprites/spr_skincolor_2/spr_skincolor_2.yy",},"order":1,},
     {"id":{"name":"obj_tab_tops","path":"objects/obj_tab_tops/obj_tab_tops.yy",},"order":4,},
+    {"id":{"name":"spr_alt_title","path":"sprites/spr_alt_title/spr_alt_title.yy",},"order":15,},
     {"id":{"name":"spr_eyes_2_blue","path":"sprites/spr_eyes_2_blue/spr_eyes_2_blue.yy",},"order":1,},
     {"id":{"name":"spr_lips_7","path":"sprites/spr_lips_7/spr_lips_7.yy",},"order":6,},
     {"id":{"name":"spr_afropigtails_brown","path":"sprites/spr_afropigtails_brown/spr_afropigtails_brown.yy",},"order":1,},
