@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"797c2901-d2dc-4141-bd78-152ca2393204","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"797c2901-d2dc-4141-bd78-152ca2393204","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"LayerId":{"name":"52b1f890-7be9-4efe-b3b7-666ae8858618","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_eyebrows_light_brown","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","name":"797c2901-d2dc-4141-bd78-152ca2393204","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cb301bb6-6be1-4f7e-94db-2f43b837c855","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cb301bb6-6be1-4f7e-94db-2f43b837c855","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"LayerId":{"name":"6a22bbc8-3ac9-4bde-9c31-ee754f0dd492","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_eyebrows_light_brown","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","name":"cb301bb6-6be1-4f7e-94db-2f43b837c855","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_eyebrows_light_brown","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e02d5518-6131-451f-909c-fd4a942f8ce9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"797c2901-d2dc-4141-bd78-152ca2393204","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7e1a0dcb-7b78-47c3-8620-fb3140f1adcc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb301bb6-6be1-4f7e-94db-2f43b837c855","path":"sprites/spr_eyebrows_light_brown/spr_eyebrows_light_brown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"52b1f890-7be9-4efe-b3b7-666ae8858618","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6a22bbc8-3ac9-4bde-9c31-ee754f0dd492","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
