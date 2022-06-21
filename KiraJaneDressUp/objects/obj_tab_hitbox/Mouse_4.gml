@@ -53,3 +53,4 @@ switch (tab.tabType) {
 		instance_deactivate_layer("Top_Options");
 	break;
 }
+audio_play_sound(snd_click, 1, false);
