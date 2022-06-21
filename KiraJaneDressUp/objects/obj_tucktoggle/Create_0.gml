@@ -5,3 +5,4 @@ event_inherited();
 topTucked = false;
 top = instance_find(obj_top, 0);
 bottom = instance_find(obj_bottom, 0);
+instance_find(obj_hair, 0).depth = 997;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_skirt_7",
-    "path": "sprites/spr_skirt_7/spr_skirt_7.yy",
+    "name": "spr_pant_4",
+    "path": "sprites/spr_pant_4/spr_pant_4.yy",
   },
   "solid": false,
   "visible": true,

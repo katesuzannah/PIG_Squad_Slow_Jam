@@ -1,4 +1,4 @@
-shoeSprites = [spr_shoes];
+shoeSprites = [spr_shoes, spr_shoes_1, spr_shoes_2, spr_shoes_3, spr_shoes_4, spr_shoes_5, spr_shoes_6, spr_shoes_7, spr_shoes_8, spr_shoes_9, spr_shoes_10, spr_shoes_11, spr_shoes_12];
 currentShoeIndex = irandom(array_length(shoeSprites)-1);
 
 function goNext() {

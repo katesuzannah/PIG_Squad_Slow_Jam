@@ -1,4 +1,4 @@
-dressSprites = [spr_dress_1, spr_dress_2, spr_dress_3];
+dressSprites = [spr_dress_1, spr_dress_2, spr_dress_3, spr_dress_4];
 currentDressIndex = irandom(array_length(dressSprites)-1);
 
 function goNext() {

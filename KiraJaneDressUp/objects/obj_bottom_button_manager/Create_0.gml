@@ -1,4 +1,4 @@
-bottomSprites = [spr_pant_1, spr_pant_2, spr_pant_3, spr_skirt_1, spr_skirt_2, spr_skirt_3, spr_skirt_4, spr_skirt_5, spr_skirt_6, spr_skirt_7];
+bottomSprites = [spr_pant_1, spr_pant_2, spr_pant_3, spr_pant_4, spr_skirt_1, spr_skirt_2, spr_skirt_3, spr_skirt_4, spr_skirt_5, spr_skirt_6, spr_skirt_7];
 currentBottomIndex = irandom(array_length(bottomSprites)-1);
 
 function goNext() {

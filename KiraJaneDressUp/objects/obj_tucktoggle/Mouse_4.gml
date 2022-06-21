@@ -1,9 +1,9 @@
 if (topTucked) {
-	top.depth = 898;
-	bottom.depth = 899;
+	top.depth = 998;
+	bottom.depth = 999;
 }
 else {
-	top.depth = 899;
-	bottom.depth = 898;
+	top.depth = 999;
+	bottom.depth = 998;
 }
 topTucked = !topTucked;

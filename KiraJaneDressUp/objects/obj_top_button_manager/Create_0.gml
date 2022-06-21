@@ -1,4 +1,4 @@
-topSprites = [spr_top_1, spr_top_2, spr_top_3, spr_top_4, spr_top_5, spr_top_6, spr_top_7, spr_top_8, spr_top_9, spr_top_10];
+topSprites = [spr_top_1, spr_top_2, spr_top_3, spr_top_4, spr_top_5, spr_top_6, spr_top_7, spr_top_8, spr_top_9, spr_top_10, spr_top_11, spr_top_12];
 currentTopIndex = irandom(array_length(topSprites)-1);
 
 function goNext() {

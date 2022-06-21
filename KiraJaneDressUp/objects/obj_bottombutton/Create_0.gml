@@ -6,6 +6,7 @@ offsets = ds_map_create();
 ds_map_add(offsets, spr_pant_1, {x: 0, y: 10, scale: .35});
 ds_map_add(offsets, spr_pant_2, {x: 0, y: -20, scale: .25});
 ds_map_add(offsets, spr_pant_3, {x: 0, y: 150, scale: .35});
+ds_map_add(offsets, spr_pant_4, {x: 0, y: 0, scale: .35});
 ds_map_add(offsets, spr_skirt_1, {x: 0, y: 80, scale: .35});
 ds_map_add(offsets, spr_skirt_2, {x: 0, y: 150, scale: .35});
 ds_map_add(offsets, spr_skirt_3, {x: 0, y: 150, scale: .35});
