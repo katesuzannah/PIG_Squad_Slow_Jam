@@ -1,1 +1,3 @@
-room_goto_next();
+if (buttonClicked) {
+	room_goto_next();
+}

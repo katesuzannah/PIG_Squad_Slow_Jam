@@ -1,1 +1,0 @@
-changeBottoms(sprite_index);

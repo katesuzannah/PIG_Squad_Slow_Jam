@@ -12,7 +12,7 @@ function goNext() {
 }
 
 function goBack() {
-	with(instance_find(obj_bottom_button_manager, 0)) {
+	with(instance_find(obj_shoe_button_manager, 0)) {
 		currentShoeIndex--;
 		if (currentShoeIndex < 0) {
 			currentShoeIndex = array_length(shoeSprites)-1;
@@ -34,3 +34,6 @@ instance_activate_layer("Top_Options");
 instance_deactivate_layer("Bottom_Options");
 instance_deactivate_layer("Dress_Options");
 instance_deactivate_layer("Shoe_Options");
+
+//Tuck/untuck toggle
+instance_create_layer(x + 268, y + 600, "Shoe_Options", obj_tuckToggleShoes);

@@ -8,6 +8,7 @@ function goNext() {
 			currentDressIndex = 0;
 		}
 		button.sprite_index = dressSprites[currentDressIndex];
+		button.adjustPosition();
 	}
 }
 
@@ -18,12 +19,14 @@ function goBack() {
 			currentDressIndex = array_length(dressSprites)-1;
 		}
 		button.sprite_index = dressSprites[currentDressIndex];
+		button.adjustPosition();
 	}
 }
 
 //Create style button and arrows
 button = instance_create_layer(x + 270, y + 280, layer_get_id("Dress_Options"), obj_dressButton);
 button.sprite_index = dressSprites[currentDressIndex];
+button.adjustPosition();
 rightArrow = instance_create_layer(x + 500, y + 280, layer_get_id("Dress_Options"), obj_arrow);
 rightArrow.action = goNext;
 

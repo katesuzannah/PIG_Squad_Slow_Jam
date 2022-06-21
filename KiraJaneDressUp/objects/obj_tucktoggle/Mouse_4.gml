@@ -7,3 +7,4 @@ else {
 	bottom.depth = 998;
 }
 topTucked = !topTucked;
+event_inherited();

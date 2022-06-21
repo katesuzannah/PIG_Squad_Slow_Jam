@@ -1,1 +1,0 @@
-changeLips(sprite_index);

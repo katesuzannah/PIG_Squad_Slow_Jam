@@ -1,1 +1,0 @@
-changeTop(sprite_index);

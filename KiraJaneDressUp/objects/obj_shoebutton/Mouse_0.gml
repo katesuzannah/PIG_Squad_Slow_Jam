@@ -1,1 +1,0 @@
-changeShoes(sprite_index);

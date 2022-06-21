@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_tuckToggle",
+    "path": "sprites/spr_tuckToggle/spr_tuckToggle.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -32,7 +35,7 @@
     "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dressButton",
+  "name": "obj_tuckToggleShoes",
   "tags": [],
   "resourceType": "GMObject",
 }
